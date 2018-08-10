@@ -1,0 +1,34 @@
+.gallery {
+  // width: 50%;
+  // margin: 0 auto;
+  padding: 10px 0 20px 0;
+  div.gallery-images {
+    column-count: 2; /*Set the column count*/
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+
+    column-gap: 1; /*Set the gap between the 2 columns */
+    -webkit-column-gap:1;
+    -moz-column-gap: 1;
+
+     width:100%; /*total width of 2 columns combined*/
+     overflow: hidden;
+  }
+  .tile img {
+      width: 100%;
+      height: auto;
+  }
+  #img4 {
+  margin-top: 100px;
+  }
+
+}
+
+
+
+// .responsive {
+//   width: 100%;
+//   height: auto;
+// }
+
+

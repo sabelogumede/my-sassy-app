@@ -1,0 +1,17 @@
+<!-- header navigation bar -->
+<div id="header" class="nav-solid">
+  <!-- Logo -->
+  <div id="logo">
+      <img src="../assets/images/logo.png" id="banner-log" alt="Landing-page">
+  </div>
+  <!-- maing navigation -->
+  <nav id="nav-main">
+      <ul class="topnav">
+          <li><a routerLink="/Home" (click)="getActiveTab('home')" [class.active]="activetab === 'home'">Home</a></li>
+          <li><a routerLink="/Recipe" (click)="getActiveTab('recipes')" [class.active]="activetab === 'recipes'" >Recipes</a></li>
+          <li><a routerLink="/Gallery" (click)="getActiveTab('gallery')" [class.active]="activetab === 'gallery'" >Gallery</a></li>
+          <li><a routerLink="/Contact" (click)="getActiveTab('contact')" [class.active]="activetab === 'contact'" >Contact</a></li>
+          <!-- <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li> -->
+      </ul>
+  </nav>
+</div>

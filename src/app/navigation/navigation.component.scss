@@ -1,0 +1,42 @@
+#header {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  overflow: hidden;
+  // background-color: aqua;
+  #logo {
+    /* width: 40%; */
+    padding-left: 10px;
+    float: left;
+  }
+  #nav-main {
+    width: 50%;
+    float: right;
+  }
+  #nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+   }
+   #nav-main li {
+    float: left;
+  }
+   #nav-main li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .active {
+    border-bottom: #b7ab61 solid 2px;
+  }
+  // .nav-solid {
+  //   position: absolute;
+  //   width: 100%;
+  //   z-index: 0;
+  // }
+
+}

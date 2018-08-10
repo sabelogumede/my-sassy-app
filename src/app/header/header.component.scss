@@ -1,0 +1,61 @@
+
+/* -----------------navigation style----------- */
+/* banner content */
+#banner-content {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px 0 20px 0;
+  .col-1 {
+    width: 40%;
+    padding-top: 180px;
+  }
+  .button {
+    /* position and sizing */
+    display: block;
+    width: 200px;
+    /* padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    /* text styles */
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-align: center;
+    /* Border styles */
+    border: 1px solid #fff;
+   }
+   .section-banner h1,p  {
+    color: #fff;
+   }
+   .section-banner h1 {
+    font-size: 5em;
+    font-weight: 8;
+    padding-bottom: 30px;
+    line-height: 80%;
+   }
+   .section-banner p {
+    line-height: normal;
+   }
+
+}
+.hero {
+  /* sizing */
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  // z-index: -1;
+  /* background styles */
+  background-image: url("/assets/images/banner.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;   */
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+          /*  */
+          height: 100vh;
+          /* responsive */
+              /* width: 100%;
+              height: auto; */
+
+  }

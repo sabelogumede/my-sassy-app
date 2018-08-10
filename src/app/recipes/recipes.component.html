@@ -1,0 +1,21 @@
+<div class="recipe">
+    <h2 class="goldHeading">The Recipe</h2>
+  <!-- search bar -->
+  <div class="search-container">
+      <form action="#">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit">Submit</button>
+      </form>
+  </div>
+
+  <!-- <h3>{{errorMsg}}</h3> -->
+  <div class="recipes" *ngFor="let recipe of recipes">
+        <img src="{{recipe.img}}" class="responsive">
+        <h4>{{recipe.title}}</h4>
+        <p>{{recipe.article}}<br><br>
+          <span ng-href="{{recipe.buttontext}" routerLink="/Recipe2" (click)="getActiveTab('recipes')" [class.active]="activetab === 'recipes'">{{recipe.buttontext}}</span>
+        </p>
+  </div>
+</div>
+
+<!-- <app-recipe [name]="'mdsds'"></app-recipe> -->

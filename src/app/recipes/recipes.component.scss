@@ -1,0 +1,79 @@
+.recipe {
+    // width: 60%;
+    // margin: 0 auto;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+  .recipes {
+      width: 100%;
+      overflow: hidden;
+      // display: block;
+      padding-bottom: 10px;
+      border-top: 1px solid #708090;
+    }
+    img{
+      max-block-size: 200px;
+      width: 20%;
+      float: left;
+      margin-right: 15px;
+    }
+    p {
+      color: black;
+      // text-align: center;
+      margin-bottom: 10px;
+      width: 59%;
+      float: left;
+
+    }
+    .search-container {
+      width: 100%;
+      // margin: 0 auto;
+      // float: right;
+      padding-bottom: 20px;
+    }
+    form {
+      padding: 5px;
+      overflow: hidden;
+      background-color: #708090;
+    }
+    input{
+      padding: 6px;
+      margin: 8px 0 8px 16px;
+      font-size: 17px;
+    }
+    button {
+      // float: right;
+      padding: 6px;
+      margin: 8px 16px 8px 0;
+      background: #ddd;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+        background: #ccc;
+    }
+    span {
+      background: #708090;
+      float: right;
+      padding: 5px;
+      border-radius: 5px;
+      color: #fff;
+    }
+    span:hover {
+      background: #ddd;
+      color: #b7ab61;
+     }
+}
+
+
+
+
+//
+
+
+
+
+// screen size
+@media screen and (max-width: 600px) {
+
+ }
