@@ -21,7 +21,7 @@ export class RecipeService {
   constructor(private http: HttpClient) { }
 
   getRecipe(): Observable<IErecipe[]> {
-    return this.http.get<IErecipe[]>(this._url + '/recipe', this.httpOptions).pipe(
+    return this.http.get<IErecipe[]>(this._url + '/api/recipes', this.httpOptions).pipe(
       retry(3),
       catchError(this.handleError)
     );

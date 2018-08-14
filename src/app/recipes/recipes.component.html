@@ -12,7 +12,7 @@
   <div class="recipes" *ngFor="let recipe of recipes">
         <img src="{{recipe.img}}" class="responsive">
         <h4>{{recipe.title}}</h4>
-        <p>{{recipe.article}}<br><br>
+        <p>{{recipe.article.brief}}<br><br>
           <span ng-href="{{recipe.buttontext}" routerLink="/Recipe2" (click)="getActiveTab('recipes')" [class.active]="activetab === 'recipes'">{{recipe.buttontext}}</span>
         </p>
   </div>
